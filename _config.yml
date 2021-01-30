@@ -23,6 +23,14 @@ url: "https://qaz-creator.github.io" # the base hostname & protocol for your sit
 twitter_username: jekyllrb
 github_username: qaz-creator
 
+# NOt default
+author: IVY
+linkedin_username: codewarcode
+youtube_username: codewarcode
+
+copyright: "IVY LLC"
+
+title-logo: /images/icon.png
 # Build settings
 markdown: kramdown
 # Remove minima theme as it is now a regular theme
