@@ -23,6 +23,8 @@ url: "https://qaz-creator.github.io" # the base hostname & protocol for your sit
 twitter_username: jekyllrb
 github_username: qaz-creator
 
+# only get the first sentence for the excerpt
+excerpt_separator:  .
 # NOt default
 author: Creator
 linkedin_username: creator
