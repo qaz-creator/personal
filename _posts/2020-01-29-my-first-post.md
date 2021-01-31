@@ -2,7 +2,8 @@
 layout: post
 title: "My first post"
 date: 2021-01-29 22:35:32 -0500
-categories: jekyll update
+category: Blog
+image: /assets/images/1.jpg
 ---
 
 Welcome to my first post!
@@ -12,6 +13,11 @@ Welcome to my first post!
 1. this
 2. that
 3. The other
-```python
+
+````python
     printf('site')
     ```
+
+````
+
+![]({{page.image | relative_url}})
