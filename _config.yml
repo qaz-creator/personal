@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: IVY
-email: codewarcode@protonmail.com
+title: Creator
+email: creator@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcom to my personal website.
 baseurl: "/personal" # the subpath of your site, e.g. /blog
@@ -24,11 +24,11 @@ twitter_username: jekyllrb
 github_username: qaz-creator
 
 # NOt default
-author: IVY
-linkedin_username: codewarcode
-youtube_username: codewarcode
+author: Creator
+linkedin_username: creator
+youtube_username: creator
 
-copyright: "IVY LLC"
+copyright: "Creator LLC"
 
 title-logo: /images/icon.png
 # Build settings
