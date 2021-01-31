@@ -18,7 +18,7 @@
         </name>
     </author>
 
-    {%- for post in site.posts limit: 20 -%}{%- if post.category=='Blog' -%}
+    {%- for post in site.posts limit: 20 -%}{%- if post.category=='blog' -%}
     <entry>
         <title>{{post.title}}</title>
         <id>{{- site.url -}}{{- site.baseurl -}}{{- post.url -}}</id>
