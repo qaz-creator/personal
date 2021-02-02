@@ -7,8 +7,8 @@
 - title: Projects
   url: /projects/
   sublinks:
-    - title: Frontend
-      url: /projects/frontend
-    - title: Full-stack
-      url: /projects/full-stack
+    - title: Dev
+      url: /projects/dev
+    - title: Data
+      url: /projects/data
     - title: separator
