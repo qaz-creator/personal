@@ -1,14 +1,14 @@
 - title: About
-  url: /about
+  url: /about/
 - title: Blog
   url: /blog
 - title: Podcast
   url: /podcast
 - title: Projects
-  url: /projects
+  url: /projects/
   sublinks:
     - title: Frontend
-      url: /frontend
+      url: /projects/frontend
     - title: Full-stack
-      url: /full-stack
+      url: /projects/full-stack
     - title: separator

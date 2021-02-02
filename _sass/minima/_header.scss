@@ -141,13 +141,15 @@ nav {
       padding: 5px 15px;
 
       &:hover {
-        color: $pink;
-        border-radius: 5px;
-        box-shadow: 0 0 5px $pink, 0 0 5px $pink;
+        color: #ffffff;
+        background-color: $pink;
+        // border-radius: 5px;
+        // box-shadow: 0 0 5px $pink, 0 0 5px $pink;
       }
     }
     li.active a {
       color: #ffffff;
+      background-color: $pink;
     }
 
     ul {
@@ -168,11 +170,16 @@ nav {
           line-height: 35px;
           margin-bottom: 0px;
           &:hover {
-            color: $pink;
-            box-shadow: none;
+            color: #ffffff ;
+            background-color: $pink ;
           }
         }
       }
     }
   }
+}
+
+li.anti-active a {
+  color: $text-color !important;
+  background-color: #ffffff !important;
 }

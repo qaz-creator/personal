@@ -118,7 +118,8 @@ h6 {
  * Links
  */
 a {
-  color: $brand-color;
+  color: $text-color;
+  font-weight: bold;
   text-decoration: none;
 
   &:visited {
