@@ -25,7 +25,7 @@ excerpt_separator:  .
 # NOt default
 author: Creator
 
-copyright: "Creator LLC"
+copyright:             © <!--copyyears--> Creator; All rights reserved.
 
 title-logo: /images/icon.png
 # Build settings
