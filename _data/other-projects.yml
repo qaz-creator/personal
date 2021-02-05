@@ -1,64 +1,59 @@
-- name: Surf Videos
-  url: https://github.com/bchiang7/Surf-Videos
-  code: https://github.com/bchiang7/Surf-Videos
-  description: Small React project created during an interview process to browse and search surf videos via the YouTube API.
+- name: PC Repair
+  url: https://qaz-creator.github.io/pc-repair/
+  description: Website of a PC repairing company.
   used:
     - thing: JavaScript
+    - thing: Jquery
+    - thing: SASS
+
+- name: Shopping Store
+  url: https://fir-186e6.web.app/
+  code: https://github.com/qaz-creator/amazonCommerce
+  description: E-commerce project, can charge the payment by paypal. The database used is firebase.
+  used:
+    - thing: Javascript
     - thing: React
-    - thing: React Router
-    - thing: Axios
-    - thing: YouTube API
+    - thing: Firebase
+    - thing: Redux
+    - thing: Node.js
 
-- name: Halcyon Theme
-  url: https://bchiang7.github.io/halcyon-site/
-  code: https://github.com/bchiang7/halcyon-site
-  description: A minimal, dark theme for Sublime Text, Atom, VS Code, and more published to <a class="underline-link" href="https://packagecontrol.io/packages/Halcyon%20Theme">Package Control</a>, <a class="underline-link" href="https://atom.io/themes/halcyon-syntax">Atom Package Manager</a>, <a class="underline-link" href="https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode">Visual Studio Marketplace</a>, and <a class="underline-link" href="https://www.npmjs.com/package/hyper-halcyon-theme">NPM</a>.
+- name: In Time Messenger
+  url: https://chatapp-fcf70.web.app/
+  code: https://github.com/qaz-creator/InTimeMessenger
+  description: Simple messager application. Use Firebase as database.
   used:
-    - thing: Gatsby
-    - thing: Sublime Text
-    - thing: Atom
-    - thing: VS Code
-    - thing: iTerm2
-    - thing: Hyper
+    - thing: Javascript
+    - thing: React
+    - thing: Redux
+    - thing: Firebase
+    - thing: Node.js
 
-- name: Lonely Planet DBMS
-  url: https://github.com/bchiang7/CS3200-Project
-  code: https://github.com/bchiang7/CS3200-Project
-  description: Final project for my Database Design course at Northeastern. A simple web application that allows users to filter through a database containing Lonely Planet's <a class="underline-link" href="https://www.amazon.com/Lonely-Planets-Ultimate-Travel-Places/dp/1760342777" target="_blank">Top 500 Travel Destinations</a>. Users are able to add themselves as visitors as well as leave reviews of the destinations.
+
+- name: Image Board System
+  url: https://insblog.herokuapp.com/signin
+  code: https://github.com/qaz-creator/imageBoard
+  description: Database used is MongoDB. Sign up, log in, and post images, follow other users, and make comments in the system.
   used:
-    - thing: Python
-    - thing: MySQL
-    - thing: Flask
-    - thing: HTML
-    - thing: CSS
-    - thing: JavaScript
+    - thing: Javascript
+    - thing: MongoDB
+    - thing: Express
+    - thing: React
+    - thing: Node.js
 
-- name: myNEU Redesign
-  url: https://bchiang7.github.io/Redesign-myNEU/
-  code: https://github.com/bchiang7/Redesign-myNEU
-  description: myNEU student portal web prototype for my information science senior project. I conducted a study that aimed to answer the question of how myNEU can be improved to provide students at Northeastern with a better user experience. Informed by usability metrics gathered from user tests, I redesigned and developed a web prototype of myNEU.
+- name: Jekyll Personal Website
+  url: https://qaz-creator.github.io/personal/
+  description:
+    Personal website made with Jekyll. Including RSS.
   used:
     - thing: Jekyll
-    - thing: HTML
-    - thing: SCSS
-    - thing: JavaScript
-
-- name: Crowd DJ
-  url: https://github.com/crowddj/crowddj-react
-  code: https://github.com/crowddj/crowddj-react
-  description:
-    A web app that allows people who are at a party or social gathering with a DJ to request songs via their smartphones. The web app allows people to see the currently playing song, request songs, upvote songs, and rate songs so the DJ can see how the crowd is feeling and act accordingly. In other words, Crowd DJ is essentially a crowdsourced music queue. <br>
-    <a class="small" href="http://projects.hackbeanpot.com/2017-projects.html">🏆 Won Best UI/UX Design at Hackbeanpot 2017 🏆</a>
-  used:
-    - thing: React
     - thing: Sass
-    - thing: Firebase
-    - thing: Spotify API
+    - thing: HTML
 
-- name: Weather Widget
-  url: http://quiet-dusk-89245.herokuapp.com/
-  code: https://github.com/bchiang7/DemoWebApp
-  description: A simple weather app I made at HubSpot's Fall 2016 Web App Workshop with Node.js, Express, and Heroku. I used the OpenWeatherMap API to get weather and forecast data, and then used the current city's coordinates to create a map background that reflected the current city using the Google Maps API.
+
+- name: Task System
+  url: https://tasksystemmern.herokuapp.com/
+  code: https://github.com/qaz-creator/tasksystem
+  description: Sign up, log in, manage personal tasks.
   img: weather
   used:
     - thing: JavaScript
@@ -66,97 +61,57 @@
     - thing: Node.js
     - thing: Express
     - thing: Heroku
-    - thing: OpenWeatherMap API
-    - thing: Google Maps API
+    - thing: MongoDB
 
-# - name: ScreenTime 2.0
-#   url: https://play.google.com/store/apps/details?id=com.starry.management
-#   description: App-blocking feature on <a class="underline-link" href="https://starry.com/station" target="_blank">Starry Station</a> that provides functionality for users to easily filter content, pause the internet, and even create custom rules for blocking apps like Facebook and Twitter right from their mobile phones. Learn more about ScreenTime 2.0 on <a class="underline-link" href="https://www.producthunt.com/tech/screentime-for-starry-station" target="_blank">Product Hunt</a> and the <a class="underline-link" href="https://blog.starry.com/whats-new-screentime-just-got-better-for-parents/" target="_blank">Starry Blog</a>.
-#   used:
-#   - thing: JavaScript
-#   - thing: CSS
-#   - thing: Handlebars
-#   - thing: Backbone
-#   - thing: Marionette
-#   - thing: Cordova
 
-- name: Personal Website V2
-  url: https://bchiang7.github.io/v2
-  code: https://github.com/bchiang7/v2
-  description: Second iteration of my personal website. Designed and developed with a conscious effort to avoid using any superfluous frameworks like Bootstrap.
+- name: Portfolio Website V1
+  url: https://qaz-creator.github.io/myprojects/
+  code: https://github.com/qaz-creator/myprojects
+  description: First version of personal website or portfolio. Build with html, css and javascript functions.
   used:
-    - thing: Jekyll
-    - thing: Handlebars
-    - thing: SCSS
+    - thing: CSS
     - thing: JavaScript
     - thing: Github Pages
 
-- name: React Resume
-  url: https://bchiang7.github.io/react-profile/
-  code: https://github.com/bchiang7/react-profile/
-  description: An online version of my 2016 resume I made for fun. I was interested in learning React.js, so I found this <a class="underline-link" href="https://medium.com/learning-new-stuff/building-your-first-react-js-app-d53b0c98dc#.1439cdewq">simple tutorial</a> and it kind of spun into this weekend project. I probably didn't need to use React at all, but hey, at least I learned a few things!
+- name: Bird Clone
+  url: https://qaz-creator.github.io/clone-bird/
+  description: A construction company website.
   used:
     - thing: JavaScript
-    - thing: React
+    - thing: Jquery
     - thing: CSS
 
-- name: CourseSource
-  url: http://webdevspring2016-chiangbrittany.rhcloud.com/project/client/#/login
-  code: https://github.com/bchiang7/WebDevSpring2016/tree/master/public/project
-  description: A web application built on the MEAN (MongoDB, Express, Angular, Node) stack for my web development course at Northeastern. I created this web app with the intention of providing Northeastern Students a better experience browsing the courses offered at Northeastern.
+- name: Simple Piano
+  url: https://qaz-creator.github.io/simplePiano
+  description: You can play piano with it.
   used:
     - thing: HTML
     - thing: CSS
     - thing: JavaScript
-    - thing: Node.js
-    - thing: Angular
-    - thing: Express
-    - thing: MongoDB
 
-- name: NU Women in Tech
-  url: http://nuwit.ccs.neu.edu/
-  code: https://github.com/nuwit/website
-  description: Complete overhaul and redesign of NU Women in Tech's club website using Jekyll, built while serving as web chair on the e-board.
+- name: Switch Clock
+  url: https://qaz-creator.github.io/switchClock/
+  description: Clock can be switched with two themes.
   used:
-    - thing: Jekyll
+
     - thing: HTML
     - thing: CSS
     - thing: JavaScript
-    - thing: Bootstrap
 
-- name: Fontipsums
-  url: https://bchiang7.github.io/fontipsums
-  code: https://github.com/bchiang7/fontipsums
-  description: As someone who has an eye for typography, I wanted a way to visually see different font combinations together. I whipped up this simple website to display some of my favorite pairings combined with some fun lorem ipsum variations I found on the web.
-  used:
-    - thing: HTML
-    - thing: SCSS
 
-- name: Personal Website V1
-  url: https://bchiang7.github.io/v1
-  code: https://github.com/bchiang7/website_2015/
-  description: My first portfolio website I designed and built in 2014. I learned quite a bit about HTML, CSS, and SEO. Since then, I think my web development and design skills have improved immensely.
+- name: Delivery Master
+  url: https://dev-cm-svg.github.io/deliveryCompany/
+  description: A delivery company website.
   used:
     - thing: HTML
     - thing: CSS
-    - thing: Bootstrap
-    - thing: JavaScript
-    - thing: jQuery
 
-- name: One Card For All
-  url: http://onecardforall.org
-  description: MullenLowe's 2016 holiday site built around an algorithm that generates a holiday greeting to each and every person on the planet. As new names appear, visitors can watch them fall, like snowflakes, onto a stylized world map. Users can also find their own name and see it as part of the world collective. Check out this short <a class="underline-link" href="http://us.mullenlowe.com/work/one-card-for-all/" target="_blank">video</a> describing the project.
-  used:
-    - thing: HTML
-    - thing: SCSS
-    - thing: JavaScript
-    - thing: jQuery
-
-- name: JetBlue HumanKinda
-  url: https://us.mullenlowe.com/work/humankinda/
-  description: Tumblr site complementing JetBlue's HumanKinda campaign and documentary. The site houses the video documentary, many graphics created by Mullen for the campaign, and an interactive quiz to determine how "HumanKinda" you are. Learn more about this project <a class="underline-link" href="http://us.mullenlowe.com/work/humankinda/" target="_blank">here</a>.
+- name: Yes or No
+  url: https://qaz-creator.github.io/yesNo/
+  description: Simple yes no pick up.
   used:
     - thing: HTML
     - thing: CSS
     - thing: JavaScript
-    - thing: jQuery
+
+
