@@ -1,0 +1,38 @@
+<footer class="footer">
+  
+  <div class="footer__links">
+  {% for link in site.social %}
+  <a href="{{link.url}}" target="_blank" title="{{link.title}}">
+    <img
+      src="{{site.baseurl}}/images/social/{{link.title}}.svg"
+      alt="{{link.title}}"
+    />
+  </a>
+  {% endfor %}
+  {%- if feedType=="blog" or feedType=="podcast" or feedType =="projects"-%} 
+  <a href="{{ "/feed/" | append: feedType | append: '.xml'| relative_url }}">    
+    <img
+      src="{{site.baseurl}}/images/social/rss.svg"
+      alt="{{link.title}}"
+    />
+  </a>
+  {%- else -%}
+  <a href="{{ "/feed.xml" | relative_url }}">
+    <img
+    src="{{site.baseurl}}/images/social/rss.svg"
+    alt="{{link.title}}"
+  />
+  
+  </a>
+{%- endif -%}
+  
+    
+</div>
+
+  <div class="footer__copyright">
+    {{site.copyright}}
+  </div>
+
+
+
+</footer>

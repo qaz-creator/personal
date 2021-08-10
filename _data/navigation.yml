@@ -1,0 +1,14 @@
+- title: About
+  url: /about/
+- title: Blog
+  url: /blog
+- title: Podcast
+  url: /podcast
+- title: Projects
+  url: /projects/
+  sublinks:
+    - title: Dev
+      url: /projects/dev
+    - title: Data
+      url: /projects/data
+    - title: separator

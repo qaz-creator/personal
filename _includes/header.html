@@ -1,0 +1,66 @@
+<header class="site-header" role="banner">
+
+  <div class="wrapper">
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+   
+  <!-- NavBar -->
+    <nav id="navbar" class="collapse navbar-collapse">
+       <!-- logo -->
+     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
+      {%- if site.title-logo -%}
+      <img src="{{site.title-logo | relative_url}}" alt="{{site.title |escape}}" />
+      {%- else -%}
+      {{ site.title | escape }}
+      {%- endif -%}
+      </a>
+
+      <!-- nav menu-->
+      <ul class="nav navbar-nav">
+          {% assign links = site.data.navigation %}
+          {% for link in links %}
+              {% assign class = 'nil' %}
+              {% if page.url == link.url %}
+                  {% assign class = 'active' %}
+                {% elsif link.sublinks %}
+                    {% for sublink in link.sublinks %}
+                      {% if page.url == sublink.url %}
+                      {% assign class = 'active' %}
+                      {% endif %}
+                      {% endfor %}            
+              {% endif %}
+              {% if link.sublinks %}
+                  <li class="dropdown {{ class }}">
+                      <!-- <a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> -->
+                        <span class="like-a">
+                        {{ link.title }} 
+                        </span> 
+                          <!-- <span class="caret"></span></a> -->
+                      <ul class="dropdown-menu">
+                          {% for sublink in link.sublinks %}
+                              {% if sublink.title == 'separator' %}
+                                  <li role="separator" class="divider"></li>
+                              {% elsif  page.url != sublink.url %}
+
+                                  <li class="anti-active">
+                                      <a href="{{ site.url }}{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
+                                  </li>
+                                  {% else %}
+                                  <li>
+                                    <a href="{{ site.url }}{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
+                                </li>
+
+                              {% endif %}
+                          {% endfor %}
+                      </ul>
+                  </li>
+              {% else %}
+                  <li class="{{ class }}">
+                      <a id="nav-link" href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+                  </li>
+              {% endif %}
+          {% endfor %}
+      </ul>
+  </nav>
+  </div>
+</header>

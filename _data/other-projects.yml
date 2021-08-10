@@ -1,0 +1,117 @@
+- name: PC Repair
+  url: https://qaz-creator.github.io/pc-repair/
+  description: Website of a PC repairing company.
+  used:
+    - thing: JavaScript
+    - thing: Jquery
+    - thing: SASS
+
+- name: Shopping Store
+  url: https://fir-186e6.web.app/
+  code: https://github.com/qaz-creator/amazonCommerce
+  description: E-commerce project, can charge the payment by paypal. The database used is firebase.
+  used:
+    - thing: Javascript
+    - thing: React
+    - thing: Firebase
+    - thing: Redux
+    - thing: Node.js
+
+- name: In Time Messenger
+  url: https://chatapp-fcf70.web.app/
+  code: https://github.com/qaz-creator/InTimeMessenger
+  description: Simple messager application. Use Firebase as database.
+  used:
+    - thing: Javascript
+    - thing: React
+    - thing: Redux
+    - thing: Firebase
+    - thing: Node.js
+
+
+- name: Image Board System
+  url: https://insblog.herokuapp.com/signin
+  code: https://github.com/qaz-creator/imageBoard
+  description: Database used is MongoDB. Sign up, log in, and post images, follow other users, and make comments in the system.
+  used:
+    - thing: Javascript
+    - thing: MongoDB
+    - thing: Express
+    - thing: React
+    - thing: Node.js
+
+- name: Jekyll Personal Website
+  url: https://qaz-creator.github.io/personal/
+  description:
+    Personal website made with Jekyll. Including RSS.
+  used:
+    - thing: Jekyll
+    - thing: Sass
+    - thing: HTML
+
+
+- name: Task System
+  url: https://tasksystemmern.herokuapp.com/
+  code: https://github.com/qaz-creator/tasksystem
+  description: Sign up, log in, manage personal tasks.
+  img: weather
+  used:
+    - thing: JavaScript
+    - thing: CSS
+    - thing: Node.js
+    - thing: Express
+    - thing: Heroku
+    - thing: MongoDB
+
+
+- name: Portfolio Website V1
+  url: https://qaz-creator.github.io/myprojects/
+  code: https://github.com/qaz-creator/myprojects
+  description: First version of personal website or portfolio. Build with html, css and javascript functions.
+  used:
+    - thing: CSS
+    - thing: JavaScript
+    - thing: Github Pages
+
+- name: Bird Clone
+  url: https://qaz-creator.github.io/clone-bird/
+  description: A construction company website.
+  used:
+    - thing: JavaScript
+    - thing: Jquery
+    - thing: CSS
+
+- name: Simple Piano
+  url: https://qaz-creator.github.io/simplePiano
+  description: You can play piano with it.
+  used:
+    - thing: HTML
+    - thing: CSS
+    - thing: JavaScript
+
+- name: Switch Clock
+  url: https://qaz-creator.github.io/switchClock/
+  description: Clock can be switched with two themes.
+  used:
+
+    - thing: HTML
+    - thing: CSS
+    - thing: JavaScript
+
+
+- name: Delivery Master
+  url: https://dev-cm-svg.github.io/deliveryCompany/
+  description: A delivery company website.
+  used:
+    - thing: HTML
+    - thing: CSS
+
+- name: Yes or No
+  url: https://qaz-creator.github.io/yesNo/
+  description: Simple yes no pick up.
+  used:
+    - thing: HTML
+    - thing: CSS
+    - thing: JavaScript
+
+
