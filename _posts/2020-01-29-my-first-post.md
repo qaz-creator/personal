@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "My first post"
+title: "Employee system"
 date: 2021-01-29 22:35:32 -0500
 category: blog
-image: /assets/images/1.jpg
+# image: /assets/images/1.jpg
 ---
 
-Welcome to my first post!
+<!-- Employee system -->
+## Employee system
 
-## Here are things I want to write about
 
 1. this
 2. that
@@ -20,4 +20,4 @@ Welcome to my first post!
 
 ````
 
-![]({{page.image | relative_url}})
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)

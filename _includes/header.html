@@ -30,12 +30,10 @@
                       {% endfor %}            
               {% endif %}
               {% if link.sublinks %}
-                  <li class="dropdown {{ class }}">
-                      <!-- <a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> -->
+                  <li class="dropdown ">
                         <span class="like-a">
                         {{ link.title }} 
                         </span> 
-                          <!-- <span class="caret"></span></a> -->
                       <ul class="dropdown-menu">
                           {% for sublink in link.sublinks %}
                               {% if sublink.title == 'separator' %}

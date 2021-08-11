@@ -23,9 +23,9 @@ url: "https://qaz-creator.github.io" # the base hostname & protocol for your sit
 # only get the first sentence for the excerpt
 excerpt_separator:  .
 # NOt default
-author: Creator
+author: qaz-creator
 
-copyright:             © <!--copyyears--> Creator; All rights reserved.
+copyright: qaz-creator
 
 title-logo: /images/icon.png
 # Build settings

@@ -1,3 +1,12 @@
+- name: Employees System
+  code: https://github.com/qaz-creator/employee
+  url: https://qaz-creator.github.io/employee/
+  description: Employee Manaagement System
+  used: 
+   - thing: PHP
+   - thing: Laravel
+   - thing: Vue.js
+
 - name: PC Repair
   url: https://qaz-creator.github.io/pc-repair/
   description: Website of a PC repairing company.
